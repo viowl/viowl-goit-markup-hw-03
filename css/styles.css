@@ -119,6 +119,10 @@ h1 {
   margin: 0px 0px 48px 0px;
 }
 
+h2, p {
+  margin: 0px;
+}
+
 .button {
   font-family: inherit;
   font-weight: 500;
@@ -142,12 +146,19 @@ h1 {
 }
 /* -----------------SECTION METHODS */
 
+.method {
+  margin-top: 120px;
+  background-color: ;
+}
+
 .methods-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color);
+
+  margin-top: 0px;
 }
 
 .methods-text {
