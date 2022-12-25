@@ -37,26 +37,42 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+h1,
 h2,
-p {
-  margin: 0px;
-}
-
+h3,
+p,
 ul,
 ol {
   margin: 0px;
 }
+
 img {
   display: block;
 }
+
+.flex {
+  display: flex;
+}
+
+.gap {
+  gap: 24px;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1152px;
+  outline: 2px solid tomato;
+}
 /* ----------------------HEADER */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 
 .brand-logo {
   color: var(--brand-color);
-}
-
-.logo-bot {
-  color: var(--light-text);
 }
 
 .logo {
@@ -107,27 +123,38 @@ img {
   color: var(--brand-color);
 }
 
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  width: 1152px;
-  outline: 2px solid tomato;
+.header-list {
+  margin-left: 76px;
+  gap: 40px;
 }
+
+.header-contact{
+  margin-left: 332px;
+  gap: 40px;
+}
+
 
 /*--------------- hero */
 .hero {
   background-color: var(--dark-color);
   outline: 2px solid tomato;
   text-align: center;
+
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
-h1 {
-  font-weight: 500;
+
+.hero-title {
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-
   letter-spacing: 0.02em;
   color: var(--white-color);
-  margin: 0px 0px 48px 0px;
+
+  max-width: 496px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
 }
 
 .button {
@@ -186,12 +213,20 @@ h1 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
+
+  flex-basis: calc((100% - 24px * 3) / 4);
+}
+
+.gallery {
+  padding-bottom: 120px;
 }
 
 /*---------------------- our team  */
 .team {
   background-color: var(--light-color);
-  margin-top: 120px;
+
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-title {
@@ -211,6 +246,9 @@ h1 {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--dark-color);
+
+  margin-bottom: 8px;
+  padding-top: 32px;
 }
 
 .team-position {
@@ -223,6 +261,8 @@ h1 {
 }
 .team-item {
   background-color: var(--white-color);
+  border-radius: 0px 0px 4px 4px;
+  padding-bottom: 32px;
 }
 
 /*-------------- footer */
@@ -237,13 +277,19 @@ h1 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--accent-color);
-
   width: 264px;
   height: 72px;
+
+  margin-top: 16px;
 }
 
 .logo-bot {
   color: var(--light-color);
+}
+
+.footer-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 /* ----------------------portfolio page  */

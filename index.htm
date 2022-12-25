@@ -20,12 +20,12 @@
 
   <body>
     <header class="header">
-      <div class="container">
-        <nav>
+      <div class="container flex">
+        <nav class="flex">
           <a href="./index.htm" class="link logo"
             ><span class="brand-logo">Web</span>Studio</a
           >
-          <ul class="header-list list">
+          <ul class="header-list list flex">
             <li class="header-item">
               <a href="./index.htm" class="link link-nav">Studio</a>
             </li>
@@ -37,13 +37,13 @@
             </li>
           </ul>
         </nav>
-        <ul class="list">
-          <li class="header-contact">
+        <ul class="header-contact list flex">
+          <li class="header-contact-item">
             <a href="mailto:info@devstudio.com" class="link-mail link"
               >info@devstudio.com</a
             >
           </li>
-          <li class="header-contact">
+          <li class="header-contact-item">
             <a href="tel:+110001111111" class="link-tel link"
               >+11 (000) 111-11-11</a
             >
@@ -53,12 +53,15 @@
     </header>
     <main>
       <section class="hero">
-        <h1>Effective Solutions for Your Business</h1>
-        <!-- sdelat knopky Order Service -->
-        <button class="button">Order Service</button>
+        <div class="container">
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <!-- sdelat knopky Order Service -->
+          <button class="button">Order Service</button>
+        </div>
       </section>
+      <!-- -----------------------METHODS  -->
       <section class="method container">
-        <ul class="list">
+        <ul class="list flex gap">
           <li>
             <h2 class="methods-title">Strategy</h2>
             <p class="methods-text">
@@ -94,7 +97,7 @@
         <div class="container">
           <h2 class="gallery-title">What are we doing</h2>
           <h2 class="visually-hidden">Gallery</h2>
-          <ul class="list">
+          <ul class="list flex gap">
             <li>
               <img src="./images/comp.jpg" alt="desktop computer" width="360" />
             </li>
@@ -115,7 +118,7 @@
       <section class="team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
-          <ul class="list">
+          <ul class="list flex gap">
             <li class="team-item">
               <img src="./images/mark.jpg" alt="man" width="264" />
               <h3 class="team-name">Mark Guerrero</h3>
@@ -141,7 +144,7 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-container">
         <a href="./index.htm" class="link logo"
           ><span class="brand-logo">Web</span
           ><span class="logo-bot">Studio</span></a
