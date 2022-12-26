@@ -356,6 +356,7 @@ img {
   padding: 32px 0px;
   border: 1px solid var(--accent-color);
   border-top: none;
+  padding-left: 16px;
 }
 
 .filter-list {
