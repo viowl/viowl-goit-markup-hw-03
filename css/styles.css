@@ -13,6 +13,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--white-color);
+  width: 1440px;
 }
 
 .list {
