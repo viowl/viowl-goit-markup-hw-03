@@ -66,6 +66,9 @@ img {
   margin-right: auto;
   margin-left: auto;
   width: 1152px;
+  /* padding-left: 12px;
+  padding-right: 12px; */
+  align-items: baseline;
   /* outline: 2px solid tomato; */
 }
 /* ----------------------HEADER */
