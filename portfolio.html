@@ -20,39 +20,41 @@
 
   <body>
     <header class="header">
-      <nav>
-        <a href="./index.htm" class="link logo"
-          ><span class="brand-logo">Web</span>Studio</a
-        >
-        <ul class="header-list list">
-          <li class="header-item">
-            <a href="./index.htm" class="link link-nav">Studio</a>
+      <div class="container flex">
+        <nav class="flex">
+          <a href="./index.htm" class="link logo"
+            ><span class="brand-logo">Web</span>Studio</a
+          >
+          <ul class="header-list list flex">
+            <li class="header-item">
+              <a href="./index.htm" class="link link-nav">Studio</a>
+            </li>
+            <li class="header-item">
+              <a href="./portfolio.html" class="link link-nav">Portfolio</a>
+            </li>
+            <li class="header-item">
+              <a href="#" class="link link-nav">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-contact list flex">
+          <li class="header-contact-item">
+            <a href="mailto:info@devstudio.com" class="link-mail link"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="header-item">
-            <a href="./portfolio.html" class="link link-nav">Portfolio</a>
-          </li>
-          <li class="header-item">
-            <a href="#" class="link link-nav">Contacts</a>
+          <li class="header-contact-item">
+            <a href="tel:+110001111111" class="link-tel link"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
-      </nav>
-      <ul class="list">
-        <li class="header-contact">
-          <a href="mailto:info@devstudio.com" class="link-mail link"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="header-contact">
-          <a href="tel:+110001111111" class="link-tel link"
-            >+11 (000) 111-11-11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
-      <section>
+      <section class="container">
         <h1 class="visually-hidden">Portfolio</h1>
-        <ul class="list">
+        <ul class="list flex gap filter-list">
           <li>
             <button type="button" class="button-filter">All</button>
           </li>
@@ -70,7 +72,7 @@
           </li>
         </ul>
 
-        <ul class="list">
+        <ul class="list flex gallery-list">
           <li>
             <img src="./images/portfolio1.jpg" alt="app" />
             <h2 class="pic-title">Banking App Interface Concept</h2>
