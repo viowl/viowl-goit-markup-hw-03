@@ -230,7 +230,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 
   flex-basis: calc((100% - 24px * 3) / 4);
 }
@@ -255,7 +255,7 @@ img {
   letter-spacing: 0.02em;
 
   color: var(--dark-color);
-  margin-bottom: 120px;
+  margin-bottom: 72px;
 }
 
 .team-name {
